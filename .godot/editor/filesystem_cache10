@@ -1,0 +1,13 @@
+63f7b34db8d8cdea90c76aacccf841ec
+::res://::1767975057
+icon.svg::CompressedTexture2D::6205699815755391325::1767708523::1767975058::1::::<><><>0<>0<>59bf9612c24d1cecc22f245773d4379d<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
+main.tscn::PackedScene::320643002009153818::1767974683::0::1::::<><><>0<>0<><>::uid://c4h5kq84rpjwr::::res://scripts/main.gd<>uid://buggpgts6csx8::::res://scripts/room_graph.gd
+room_node.tscn::PackedScene::7008803497015440300::1767883725::0::1::::<><><>0<>0<><>::uid://dtqraxv7sejbi::::res://scripts/room_node.gd
+test_node.tscn::PackedScene::-1::1767818379::0::1::::<><><>0<>0<><>::res://scripts/test_node.gd
+::res://scripts/::1767974683
+drawing.gd::GDScript::8136842228598211239::1767709763::0::1::::<>Node2D<><>0<>0<><>::
+main.gd::GDScript::6824608737582696329::1767818546::0::1::::<>Node<><>0<>0<><>::
+room.gd::GDScript::6736098318428018518::1767974011::0::1::::Room<>Resource<><>0<>0<><>::
+room_graph.gd::GDScript::3802975257194028663::1767974683::0::1::::<>GraphEdit<><>0<>0<><>::
+room_node.gd::GDScript::8526913555100006094::1767974058::0::1::::RoomNode<>GraphNode<><>0<>0<><>::
+test_node.gd::GDScript::2711763513957391129::1767708820::0::1::::<>Node<><>0<>0<><>::

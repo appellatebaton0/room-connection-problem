@@ -22,6 +22,3 @@ minimap_enabled = false
 show_zoom_label = true
 show_zoom_buttons = false
 script = ExtResource("2_0xm2m")
-
-[connection signal="connection_request" from="GraphEdit" to="GraphEdit" method="_on_connection_request"]
-[connection signal="disconnection_request" from="GraphEdit" to="GraphEdit" method="_on_disconnection_request"]
