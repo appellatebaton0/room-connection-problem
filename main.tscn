@@ -1,0 +1,27 @@
+[gd_scene load_steps=3 format=3 uid="uid://etk7cti113sw"]
+
+[ext_resource type="Script" uid="uid://c4h5kq84rpjwr" path="res://scripts/main.gd" id="1_ig7tw"]
+[ext_resource type="Script" uid="uid://buggpgts6csx8" path="res://scripts/room_graph.gd" id="2_0xm2m"]
+
+[node name="Main" type="Node"]
+script = ExtResource("1_ig7tw")
+
+[node name="GraphEdit" type="GraphEdit" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -8.0
+offset_right = -8.0
+grow_horizontal = 2
+grow_vertical = 2
+connection_lines_curvature = 0.0
+connection_lines_thickness = 8.0
+zoom_min = 0.01
+zoom_max = 5.0
+minimap_enabled = false
+show_zoom_label = true
+show_zoom_buttons = false
+script = ExtResource("2_0xm2m")
+
+[connection signal="connection_request" from="GraphEdit" to="GraphEdit" method="_on_connection_request"]
+[connection signal="disconnection_request" from="GraphEdit" to="GraphEdit" method="_on_disconnection_request"]

@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://c64d774bfpewi"]
+
+[ext_resource type="Script" uid="uid://dtqraxv7sejbi" path="res://scripts/room_node.gd" id="1_kigey"]
+
+[node name="RoomNode" type="GraphNode"]
+offset_right = 54.0
+offset_bottom = 62.0
+title = "Room"
+script = ExtResource("1_kigey")
